@@ -803,6 +803,7 @@ nav {
 
     .about {
         padding: 30px 5% 50px; /* Tighter gap to Hero */
+        text-align: center;
     }
 
     .about-header h2 {
@@ -828,6 +829,7 @@ nav {
 
     .features {
         padding: 60px 10%;
+        text-align: center;
     }
 
     .features-grid {
@@ -837,15 +839,25 @@ nav {
 
     .signature-product {
         padding: 60px 10%;
+        text-align: center;
     }
 
     .signature-content h2 {
         font-size: 3rem;
     }
 
+    .signature-content .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .spec-grid {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+
+    .spec-item {
+        align-items: center;
     }
 
     .final-cta h2 {
@@ -875,6 +887,7 @@ nav {
         flex-direction: row; /* Keep on one line if possible, or stack cleanly */
         flex-wrap: wrap;
         gap: 15px;
+        justify-content: center;
     }
 
     .primary-btn {
@@ -885,7 +898,7 @@ nav {
     .price {
         font-size: 1.1rem;
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
     
     .nav-links {
