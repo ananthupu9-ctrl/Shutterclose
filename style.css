@@ -756,10 +756,14 @@ nav {
         padding: 20px 30px;
     }
 
+    .logo {
+        font-size: 1.3rem;
+    }
+
     .hero {
         flex-direction: column;
         text-align: center;
-        padding-top: 140px;
+        padding-top: 100px;
     }
 
     .hero-content p {
@@ -786,9 +790,26 @@ nav {
 }
 
 @media (max-width: 768px) {
+    nav {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 1.1rem;
+    }
+
+    .cta-nav {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
     .hero {
         min-height: auto;
         padding: 100px 5% 30px; /* Tighter padding */
+    }
+
+    .hero-content {
+        margin-bottom: 40px;
     }
 
     .hero-content h1 {
@@ -802,7 +823,11 @@ nav {
     }
 
     .about {
-        padding: 30px 5% 50px; /* Tighter gap to Hero */
+        padding: 30px 5% 10px; /* Tighter gap */
+        text-align: center;
+    }
+
+    .about-container {
         text-align: center;
     }
 
@@ -819,6 +844,10 @@ nav {
         padding-top: 20px;
     }
 
+    .slider-controls {
+        display: none;
+    }
+
     .category-card {
         flex: 0 0 85vw;
     }
@@ -827,8 +856,34 @@ nav {
         height: 400px;
     }
 
+    .order-page {
+        padding: 60px 5%;
+    }
+
+    .order-container {
+        gap: 50px;
+    }
+
+    .section-header h2 {
+        font-size: 2.2rem;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    .categories {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .category-scroll {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
     .features {
-        padding: 60px 10%;
+        padding: 30px 10% 20px;
         text-align: center;
     }
 
@@ -838,7 +893,7 @@ nav {
     }
 
     .signature-product {
-        padding: 60px 10%;
+        padding: 20px 10% 60px;
         text-align: center;
     }
 
@@ -852,7 +907,7 @@ nav {
     }
 
     .spec-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 
